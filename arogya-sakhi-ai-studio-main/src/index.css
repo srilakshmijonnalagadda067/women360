@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Epilogue", sans-serif;
+  --font-sans: "Plus Jakarta Sans", "Noto Sans Telugu", sans-serif;
+  --color-primary: #7c113b;
+  --color-primary-dark: #630a2d;
+  --color-primary-container: #9b2c52;
+  --color-primary-fixed: #ffd9e0;
+  --color-primary-fixed-dim: #ffb1c3;
+  --color-on-primary: #ffffff;
+  --color-on-primary-fixed: #3f0019;
+  
+  --color-secondary: #2b6957;
+  --color-secondary-container: #b0f0d8;
+  --color-secondary-fixed: #b0f0d8;
+  --color-on-secondary: #ffffff;
+  --color-on-secondary-fixed: #002118;
+  
+  --color-tertiary: #6b2934;
+  --color-tertiary-container: #88404a;
+  --color-tertiary-fixed: #ffd9dc;
+  
+  --color-surface: #f6faff;
+  --color-surface-container: #e7eff7;
+  --color-surface-container-low: #edf5fc;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-high: #e1e9f1;
+  --color-surface-container-highest: #dbe3eb;
+  
+  --color-outline: #897176;
+  --color-outline-variant: #dcbfc4;
+  --color-on-surface: #151d22;
+  --color-on-surface-variant: #564146;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", "Noto Sans Telugu", -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #f6faff;
+  color: #151d22;
+}
+
+h1, h2, h3, .font-display {
+  font-family: "Epilogue", "Noto Sans Telugu", sans-serif;
+}
+

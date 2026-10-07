@@ -1,0 +1,10 @@
+{
+  "name": "women360-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix ./arogya-sakhi-ai-studio-main run dev",
+    "build": "npm --prefix ./arogya-sakhi-ai-studio-main run build",
+    "lint": "npm --prefix ./arogya-sakhi-ai-studio-main run lint",
+    "preview": "npm --prefix ./arogya-sakhi-ai-studio-main run preview"
+  }
+}
